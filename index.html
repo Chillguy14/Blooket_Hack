@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blooket Hack Panel</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f0f23, #1a1a3d);
+      color: #0f0;
+      text-align: center;
+      padding: 40px 20px;
+      margin: 0;
+    }
+    h1 { color: #ff4444; margin-bottom: 10px; }
+    p { color: #aaa; }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    button {
+      display: block;
+      width: 80%;
+      max-width: 400px;
+      margin: 15px auto;
+      padding: 18px;
+      font-size: 18px;
+      background: #ff2222;
+      color: white;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #00ff00;
+      color: black;
+      transform: scale(1.05);
+    }
+    .warning { background: #ff8800 !important; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🛠 Blooket Hack Panel</h1>
+    <p>Klicka på knapparna när du är inne på Blooket (i game eller lobby)</p>
+
+    <button onclick="unlockBlooks()">🔓 Unlock All Blooks</button>
+    <button onclick="autoAnswer()">✅ Auto Answer (enkel)</button>
+    <button onclick="addTokens()" class="warning">💰 Add Tokens (försiktig)</button>
+    <button onclick="crashGame()" class="warning">🚨 Crash Game (MYCKET riskabelt!)</button>
+  </div>
+
+  <script>
+    function unlockBlooks() {
+      if (confirm("Kör Unlock All Blooks?")) {
+        alert("Unlock startar... (öppna Blooket och klicka igen om det behövs)");
+        // Här kan du senare lägga in mer avancerad kod
+      }
+    }
+
+    function autoAnswer() {
+      alert("Auto Answer aktiverad – testa i ett spel!");
+    }
+
+    function addTokens() {
+      if (confirm("Lägg till tokens? Kom ihåg att Blooket har daglig gräns!")) {
+        alert("Tokens-kommando körs...");
+      }
+    }
+
+    function crashGame() {
+      if (confirm("⚠️ VARNING! Detta kan krascha spelet för alla och ge ban.\n\nÄr du verkligen säker?")) {
+        alert("Crash-försök startar...\n\n(öppna Blooket först)");
+        // Här kan du klistra in din starkare crash-kod senare
+      }
+    }
+  </script>
+</body>
+</html>
